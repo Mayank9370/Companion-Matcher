@@ -31,18 +31,19 @@ A simple full-stack application that allows users to create a profile (name, age
 - backend
 - frontend
 
-- backend/
-- ├── controllers/
-- │ └── userController.js
-- ├── models/
-- │ └── userModel.js
-- ├── routes/
-- │ └── userRoutes.js
-- ├── config/
-- │ └── supabaseClient.js
-- ├── .env
-- ├── index.js
-
+```
+ backend/
+ ├── controllers/
+ │ └── userController.js
+ ├── models/
+ │ └── userModel.js
+ ├── routes/
+ │ └── userRoutes.js
+ ├── config/
+ │ └── supabaseClient.js
+ ├── .env
+ ├── index.js
+```
 ## Install dependencies
 ```
 npm install @supabase/supabase-js@^2.50.5 cors@^2.8.5 dotenv@^17.2.0 express@^5.1.0
@@ -73,7 +74,7 @@ SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your-anon-or-service-role-key
 PORT=3000
 ```
-
+- To run backend -> npm start or node index.js
 ## frontend
 ```
 npm install @tailwindcss/vite@^4.1.11 axios@^1.10.0 lucide-react@^0.525.0 react@^19.1.0 react-dom@^19.1.0 tailwindcss@^4.1.11
@@ -109,3 +110,4 @@ Root Files:
 ```
 
 - Integreate tailwind for beautiful UI
+- To run frontend -> npm run dev
