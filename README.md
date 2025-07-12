@@ -2,6 +2,10 @@
 
 A simple full-stack application that allows users to create a profile (name, age, interests) and find matches based on shared interests. The system uses Supabase as a backend database and Node.js/Express as the API server.
 
+# Screenshot
+<img width="1603" height="910" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/e4bd453a-ffa9-4395-9e5b-d887b583ebc1" />
+
+
 ---
 
 ## 🚀 Features
